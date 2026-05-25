@@ -10,12 +10,19 @@ Instead of generating basic corporate reports, this tracking engine centralizes 
 
 HR-Analysis/
 │
+
 ├── HR_analytics_dashboard.pbix         # Core Power BI workspace housing data models & visual canvas
+
 ├── Employee_data.csv                   # Historical master employee demographic & operational profiles
+
 ├── HR_Analytics_Data.csv               # Consolidated corporate HR transaction ledger
+
 ├── Retrenched_employees.csv            # Structured dataset tracking workforce adjustments
+
 ├── Due_for_promotion&retrenchment.xlsx # Extracted multi-criteria business logic data matrix
+
 ├── Screenshot.jpg                      # Primary interface screenshot asset
+
 └── README.md                           # Operational documentation & case study
 
 ---
