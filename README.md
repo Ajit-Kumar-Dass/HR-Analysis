@@ -8,8 +8,8 @@ Instead of generating basic corporate reports, this tracking engine centralizes 
 
 ## 📁 Repository Blueprint & Inventory
 
-HR-Analysis/
-│
+HR-Analysis
+
 
 ├── HR_analytics_dashboard.pbix         # Core Power BI workspace housing data models & visual canvas
 
