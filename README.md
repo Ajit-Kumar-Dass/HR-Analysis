@@ -1,102 +1,63 @@
-# 📊 HR Analytics Dashboard (Power BI)
+# Enterprise HR Analytics & Workforce Intelligence Platform (Power BI)
 
-## 🧾 About the Project
+Managing workforce distribution, talent lifecycles, and employee retention across scaling organizational structures often introduces severe operational friction due to fractured, manual spreadsheet data. This project delivers a strategic, end-to-end HR Analytics platform engineered to transform raw, disconnected employee ledgers into an interactive, executive-facing intelligence engine. 
 
-This project is a Power BI dashboard built to explore and analyze HR data in a meaningful way. The goal was simple — take scattered employee data and turn it into something that actually helps in decision-making.
-
-It gives a clear picture of how employees are distributed across the organization, who might be due for promotion, and where there could be retention concerns. Instead of going through spreadsheets, everything is available in one interactive view.
+Instead of generating basic corporate reports, this tracking engine centralizes descriptive diagnostics and proactive operational logic to automate performance evaluation matrices, promotion eligibility windows, and organizational health audits.
 
 ---
 
-## 🎯 What This Dashboard Helps With
+## 📁 Repository Blueprint & Inventory
 
-* Understanding overall employee distribution
-* Identifying employees eligible for promotion
-* Spotting potential retrenchment cases
-* Analyzing job satisfaction and performance trends
-* Supporting better HR decisions with data
-
----
-
-## 🛠️ Tools Used
-
-* Power BI (for building the dashboard)
-* Power Query (for cleaning and shaping the data)
-* Excel / CSV files (as data sources)
-
----
-
-## 📁 Project Files
-
-```
 HR-Analysis/
 │
-├── HR_analytics_dashboard.pbix
-├── Employee_data.csv
-├── HR_Analytics_Data.csv
-├── Retrenched_employees.csv
-├── Due_for_promotion&retrenchment.xlsx
-├── Screenshot.jpg
-└── README.md
-```
+├── HR_analytics_dashboard.pbix         # Core Power BI workspace housing data models & visual canvas
+├── Employee_data.csv                   # Historical master employee demographic & operational profiles
+├── HR_Analytics_Data.csv               # Consolidated corporate HR transaction ledger
+├── Retrenched_employees.csv            # Structured dataset tracking workforce adjustments
+├── Due_for_promotion&retrenchment.xlsx # Extracted multi-criteria business logic data matrix
+├── Screenshot.jpg                      # Primary interface screenshot asset
+└── README.md                           # Operational documentation & case study
 
 ---
 
-## 📊 What’s Inside the Dashboard
+## 📊 Core Diagnostic Layers & Layout Design
+
+The dashboard utilizes a premium, unified custom layout engineered for corporate leadership, removing default tool clutter to highlight key operational answers in a single interface.
+
+### 1. Executive Summary & Demographic Distribution
+* **Workforce Footprint KPIs:** Centralizes dynamic indicators tracking total headcount metrics, current promotion windows, and baseline talent volumes.
+* **Structural Distribution Trees:** Breaks down absolute employee volume by Department, Operational Role, Age Cohort, and Educational Background to identify structural resource gaps.
+
+### 2. Talent Optimization & Risk Isolation
+* **Automated Promotion Tracking:** Implements filter-responsive relational logic to instantly identify high-performing team members eligible for next-tier career development windows.
+* **Risk Mapping & Structural Adjustments:** Tracks performance metrics alongside corporate criteria to isolate potential retrenchment indicators and workforce transition segments, protecting overall organizational efficiency.
+* **Performance & Retention Metrics:** Integrates dual-axis evaluations mapping structural Job Satisfaction, Work-Life Balance metrics, and dynamic Performance Ratings to flag underlying attrition concerns before they impact corporate output.
+
+---
+
+## 🛠️ Data Engineering & Tech Stack
+* **BI Platform:** Power BI Desktop & Service-Ready Architecture
+* **Data Transformation (ETL):** Engineered via Power Query to handle data cleansing pipelines, standardize column parameters, filter missing records, and append multi-source CSV/Excel transaction ledgers.
+* **Analytical Modeling:** Custom relational modeling and DAX measures developed to calculate dynamic, multi-criteria percentage splits, rolling averages, and eligibility filters.
+
+---
+
+## 📸 Interface Preview
 
 <img width="1366" height="726" alt="HR_Dark_Mode" src="https://github.com/user-attachments/assets/adcc2098-ff09-4866-bcd4-4dd757307a1f" />
 
+> Full application design mapping out user navigation and dark-mode interface alignment:
 
-### • Overall Summary
-
-A quick snapshot of total employees, promotion status, and key HR metrics.
-
-### • Employee Distribution
-
-Breakdown by department, role, age group, and education.
-
-### • Promotion & Retrenchment
-
-Highlights employees who are due for promotion and those who may be at risk.
-
-### • Performance & Satisfaction
-
-Covers job satisfaction, work-life balance, and performance ratings to understand employee behavior better.
+![Dashboard Layout Preview](./Screenshot.jpg)
 
 ---
 
-## 📸 Dashboard Preview
-
-> If the image doesn’t load on GitHub, it usually means the path is wrong — this one is fixed to work correctly.
-
-![Dashboard Preview](./Screenshot.jpg)
+## 🚀 Deployment & Local Evaluation
+1. **Visual Auditing:** Look through the embedded dashboard layouts above to evaluate the spatial alignment, grid consistency, and executive color theory implementation.
+2. **Technical Review:** Download the `HR_analytics_dashboard.pbix` file from this repository and open it in Power BI Desktop to inspect the cross-filtering mechanics, underlying star schema configurations, and relational DAX calculations.
 
 ---
 
-## 📌 Key Takeaways
-
-* Makes it easy to identify patterns in employee data
-* Helps highlight areas where HR attention is needed
-* Gives a clearer view of workforce structure and trends
-
----
-
-## ▶️ How to Use
-
-1. Clone or download this repository
-2. Open the `.pbix` file using Power BI Desktop
-3. Interact with the visuals using filters and slicers
-4. (Optional) Replace the dataset with your own data
-
----
-
-## 💡 Why I Built This
-
-I wanted to create something practical — not just charts, but a dashboard that could actually be useful in a real HR setting. This project helped me understand how data can directly support business decisions.
-
----
-
-## 🤝 Contributions
-
-If you have ideas to improve the dashboard or want to extend it, feel free to fork the repo and make changes.
-
+## 📬 Contact & Collaboration
+* **GitHub Storefront:** [Ajit Kumar Dass Portfolio](https://github.com/Ajit-Kumar-Dass)
+* **LinkedIn:** Connect with me to discuss data architecture, financial intelligence frameworks, and custom workforce analytics solutions.
